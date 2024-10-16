@@ -1,0 +1,100 @@
+.todos_list {
+    display: flex;
+    flex-direction: column;
+}
+
+.todo {
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.todo_name {
+    width: 70%;
+}
+
+.todo p {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.todo_finished {
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: rgb(138, 192, 57);
+}
+
+.todo_finished span {
+    text-decoration: line-through;
+}
+
+.input_and_button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.input_and_button input {
+    padding: 13px;
+    padding-right: 50px;
+    border-radius: 10px;
+}
+
+.icons {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.trash {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.edit {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.edit.disabled {
+    pointer-events: none; 
+    opacity: 0.5;         
+}
+
+.checked {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.checked.disabled {
+    pointer-events: none; 
+    opacity: 0.5;         
+}
+
+.edit_form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.edit_form input {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.dates p {
+    font-size: 16px;
+}
